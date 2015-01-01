@@ -1,0 +1,57 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.70.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 9bf282d6db85d7a22b9709711d3fd38c926a6d5b Changes
+SHA1 882221895a73bad18eb9f16a0ce523a968a932c1 LICENSE.artistic_2
+SHA1 62ea8161d1cc7e68c6aa5a240b42a571037b8c51 LICENSE.bsd
+SHA1 2e3fa4759a128d94d58cbf0e2e1d34afb2735d82 MANIFEST
+SHA1 f898ec93b5f2fd039a5f52fdc96b8e3b5ea7ccdb META.yml
+SHA1 068eb39df5af31a1502a8378d2e1502a9a03ec0c Makefile.PL
+SHA1 38af4485b339d71771b76ab0f1abb57d02fcf8d4 Novosibirsk.pm
+SHA1 4f72f4eb3404c64289b2c148529a4f31923fd67e README
+SHA1 3649c3100648d82d2eb0c02e9f14b6fb6a43f834 examples/ex1.pl
+SHA1 3c887c0a1202426ed0dbed078e56b79b9485aeec examples/ex2.pl
+SHA1 82925b64bde5d54a34137ebe34515c9c9dee3f72 examples/ex3.pl
+SHA1 3c091043252f59f000854bf1e34558f2e7ed1138 images/ex3.png
+SHA1 d2664c57b65686abbfbbe1e71229761625be4922 inc/Module/Install.pm
+SHA1 da41a8d9904f7b409b49a5f6c338d3eb305a2b4b inc/Module/Install/Base.pm
+SHA1 0db0afe19cd298abba248fa089e5525bd5ab3ab6 inc/Module/Install/Can.pm
+SHA1 e7152bfd5ca67d0e33f96d09c59d600bca5c1f15 inc/Module/Install/Fetch.pm
+SHA1 29ee1cb0dc262b00983e3a2f5cf00b538dff5069 inc/Module/Install/Makefile.pm
+SHA1 e963f80cfe255f16e55067d1feb6841cff3ed2fe inc/Module/Install/Metadata.pm
+SHA1 79f5b4199f622e8b05aac266b0c39f6a85bb303f inc/Module/Install/ReadmeFromPod.pm
+SHA1 3283fb3bb58e10c29029567e63b805cdeb66af10 inc/Module/Install/Share.pm
+SHA1 65a1f09af1f4f9e47a98b6b45667c328b1b2f9c0 inc/Module/Install/Win32.pm
+SHA1 f191c49475b3f51775180cd4f7e41e3bdab7f85a inc/Module/Install/WriteAll.pm
+SHA1 d45989a2376578b93cde83329c5e556d5dee3b89 share/novosibirsk-map.xml
+SHA1 d1205665f270666652bb5908d903001e430cb72c t/Map-Tube-Novosibirsk/00-use.t
+SHA1 4d9829483760c6cf35068e7c0b58b218134c03b7 t/Map-Tube-Novosibirsk/01-version.t
+SHA1 04a2ce72f4a010b3f2861ee9d552bb2053433a46 t/Map-Tube-Novosibirsk/02-pod_coverage.t
+SHA1 584731f9da70a3ce6a88293f77eaa1317173abc4 t/Map-Tube-Novosibirsk/03-pod.t
+SHA1 5c77b138baf8917f2b10d545762304eed7a1e1f3 t/Map-Tube-Novosibirsk/04-get_shortest_route.t
+SHA1 8c747cdf024621d940646414af8a25553b2ff91b t/Map-Tube-Novosibirsk/05-name.t
+SHA1 2e6b4d42c224b5c257d7cec175e347ee7f3067e5 t/Map-Tube-Novosibirsk/06-xml.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.12 (GNU/Linux)
+
+iQEcBAEBAgAGBQJUpIuAAAoJEJe+XXKaIuTl7x0H/3se8eOMiOgGGNTTNTTSCKKd
+J+wtsSpUjdztZLaIkZhlAOBwfyQES8jZJnvt/33N5NX7irxKKWLCdJtFea2wRIG1
+/4BqJn/7i83xyLlhC6W7NE5GuQRVgayw8yfMtFzR1YDTT47/frtAN9qxYvI/5KmU
+CT172tAheuQYIQyZIAB6bsc3y+ZLzOZpTyhFxj/OgsyA7m/YKJJG2KDyZAsvLUc+
+3YPcWLdgh8wWDoqTedvryfgndhzb7ePp0blZgUBgyS+K3kiZmoMJIRd1xw+o8wkR
+l42YgtDTlJbAxIicu8bAasN1UIjlPQLbvovNSz8Ef2VROcbBjPfQdKNffkC6NZ4=
+=Ni4u
+-----END PGP SIGNATURE-----

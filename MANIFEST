@@ -21,6 +21,7 @@ META.yml
 Novosibirsk.pm
 README
 share/novosibirsk-map.xml
+SIGNATURE
 t/Map-Tube-Novosibirsk/00-use.t
 t/Map-Tube-Novosibirsk/01-version.t
 t/Map-Tube-Novosibirsk/02-pod_coverage.t
