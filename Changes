@@ -1,6 +1,7 @@
 0.02
  - Add <?xml> header to XML document.
  - Rewrite SEE ALSO section to new style.
+ - Update Module::Install to 1.16 version.
  - Update copyright years to 2015.
 
 0.01 2015-01-01T00:38:31+01:00
