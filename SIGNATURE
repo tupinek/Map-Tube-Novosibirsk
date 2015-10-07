@@ -1,5 +1,5 @@
 This file contains message digests of all files listed in MANIFEST,
-signed via the Module::Signature module, version 0.70.
+signed via the Module::Signature module, version 0.79.
 
 To verify the content in this distribution, first make sure you have
 Module::Signature installed, then type:
@@ -14,44 +14,50 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 9bf282d6db85d7a22b9709711d3fd38c926a6d5b Changes
+SHA1 878409de2034dbddc73c66003afa735ac623a62f Changes
 SHA1 882221895a73bad18eb9f16a0ce523a968a932c1 LICENSE.artistic_2
-SHA1 62ea8161d1cc7e68c6aa5a240b42a571037b8c51 LICENSE.bsd
-SHA1 2e3fa4759a128d94d58cbf0e2e1d34afb2735d82 MANIFEST
-SHA1 f898ec93b5f2fd039a5f52fdc96b8e3b5ea7ccdb META.yml
-SHA1 068eb39df5af31a1502a8378d2e1502a9a03ec0c Makefile.PL
-SHA1 38af4485b339d71771b76ab0f1abb57d02fcf8d4 Novosibirsk.pm
-SHA1 4f72f4eb3404c64289b2c148529a4f31923fd67e README
+SHA1 507a10efa92555ddddfbe72be27964d9e3eef80f LICENSE.bsd
+SHA1 16d84f681e9e932bd5558a44913ddd4604392a0c MANIFEST
+SHA1 be810ade004f3da8b326348e8d6c98f46df5273e META.yml
+SHA1 a2248a676ad1ecb110dd0b8fb041a3cbc6350f06 Makefile.PL
+SHA1 21575b3e74acd401f3e781d14a8d7100f9b96f17 Novosibirsk.pm
+SHA1 03412e5e6ecfaeea8819f0598cc8cfd71f725125 README
 SHA1 3649c3100648d82d2eb0c02e9f14b6fb6a43f834 examples/ex1.pl
 SHA1 3c887c0a1202426ed0dbed078e56b79b9485aeec examples/ex2.pl
 SHA1 82925b64bde5d54a34137ebe34515c9c9dee3f72 examples/ex3.pl
+SHA1 5a59ccf5ede1c19ec4243cfbe6c4877dde754024 examples/ex4.pl
 SHA1 3c091043252f59f000854bf1e34558f2e7ed1138 images/ex3.png
-SHA1 d2664c57b65686abbfbbe1e71229761625be4922 inc/Module/Install.pm
-SHA1 da41a8d9904f7b409b49a5f6c338d3eb305a2b4b inc/Module/Install/Base.pm
-SHA1 0db0afe19cd298abba248fa089e5525bd5ab3ab6 inc/Module/Install/Can.pm
-SHA1 e7152bfd5ca67d0e33f96d09c59d600bca5c1f15 inc/Module/Install/Fetch.pm
-SHA1 29ee1cb0dc262b00983e3a2f5cf00b538dff5069 inc/Module/Install/Makefile.pm
-SHA1 e963f80cfe255f16e55067d1feb6841cff3ed2fe inc/Module/Install/Metadata.pm
+SHA1 bce3c51bb369419603298064b78e14077b93af66 inc/Module/Install.pm
+SHA1 5c1a9d3a384a5262cbc105ab76d446047904c7fa inc/Module/Install/AuthorRequires.pm
+SHA1 d001b4b9a48395a8c4134b234a0e1789138427c5 inc/Module/Install/AuthorTests.pm
+SHA1 fe220f215f645500ce8f14ff5e19d9a28692af56 inc/Module/Install/Base.pm
+SHA1 b56ed8e42c600e08007d152cf0b1438a7c3b7f6e inc/Module/Install/Can.pm
+SHA1 99c531a17a67ce5250df2ae151cc48c80d914cde inc/Module/Install/Fetch.pm
+SHA1 76efdca3603159e0ae0e18f19fe72a0211a69529 inc/Module/Install/Makefile.pm
+SHA1 2e33e87882d60db3913da6284dd5295e5315e18a inc/Module/Install/Metadata.pm
 SHA1 79f5b4199f622e8b05aac266b0c39f6a85bb303f inc/Module/Install/ReadmeFromPod.pm
-SHA1 3283fb3bb58e10c29029567e63b805cdeb66af10 inc/Module/Install/Share.pm
-SHA1 65a1f09af1f4f9e47a98b6b45667c328b1b2f9c0 inc/Module/Install/Win32.pm
-SHA1 f191c49475b3f51775180cd4f7e41e3bdab7f85a inc/Module/Install/WriteAll.pm
-SHA1 d45989a2376578b93cde83329c5e556d5dee3b89 share/novosibirsk-map.xml
-SHA1 d1205665f270666652bb5908d903001e430cb72c t/Map-Tube-Novosibirsk/00-use.t
-SHA1 4d9829483760c6cf35068e7c0b58b218134c03b7 t/Map-Tube-Novosibirsk/01-version.t
-SHA1 04a2ce72f4a010b3f2861ee9d552bb2053433a46 t/Map-Tube-Novosibirsk/02-pod_coverage.t
-SHA1 584731f9da70a3ce6a88293f77eaa1317173abc4 t/Map-Tube-Novosibirsk/03-pod.t
-SHA1 5c77b138baf8917f2b10d545762304eed7a1e1f3 t/Map-Tube-Novosibirsk/04-get_shortest_route.t
-SHA1 8c747cdf024621d940646414af8a25553b2ff91b t/Map-Tube-Novosibirsk/05-name.t
-SHA1 2e6b4d42c224b5c257d7cec175e347ee7f3067e5 t/Map-Tube-Novosibirsk/06-xml.t
+SHA1 42de62df31eaf796d8bfd49a11fdc9cff1b50b74 inc/Module/Install/Share.pm
+SHA1 c830b819e61bda5eca077c6291293bba61b3b9f2 inc/Module/Install/Win32.pm
+SHA1 cb52b9d6f88d512d448a6f35ed0af0d1201a134b inc/Module/Install/WriteAll.pm
+SHA1 a7cffc7502b6b7ff7126f9c8610f261f7fcee08e share/novosibirsk-map.xml
+SHA1 d1205665f270666652bb5908d903001e430cb72c t/Map-Tube-Novosibirsk/01-use.t
+SHA1 d753a514895f2d5710125e5b3aba96e55603c279 t/Map-Tube-Novosibirsk/02-version.t
+SHA1 0a42b481b536bb97edc9b0bf98bde6f9cc3f9219 t/Map-Tube-Novosibirsk/03-map.t
+SHA1 b221192f711e592be02cb51e39d6db056034046f t/Map-Tube-Novosibirsk/04-get_node_by_id.t
+SHA1 4d8e5beebd582f3579592ec9d64fcb4499fca7eb t/Map-Tube-Novosibirsk/05-get_node_by_name.t
+SHA1 902b31bf022369f13d8c02effb30d17fea82d0ca t/Map-Tube-Novosibirsk/06-get_shortest_route.t
+SHA1 f9d5836b70ed849620a8ff30030c7b0cdb3613c7 t/Map-Tube-Novosibirsk/07-name.t
+SHA1 cab6a246cf4906b4ebd67d707006ebd9870ef5aa t/Map-Tube-Novosibirsk/08-xml.t
+SHA1 04a2ce72f4a010b3f2861ee9d552bb2053433a46 xt/Map-Tube-Novosibirsk/01-pod_coverage.t
+SHA1 584731f9da70a3ce6a88293f77eaa1317173abc4 xt/Map-Tube-Novosibirsk/02-pod.t
 -----BEGIN PGP SIGNATURE-----
-Version: GnuPG v1.4.12 (GNU/Linux)
+Version: GnuPG v1
 
-iQEcBAEBAgAGBQJUpIuAAAoJEJe+XXKaIuTl7x0H/3se8eOMiOgGGNTTNTTSCKKd
-J+wtsSpUjdztZLaIkZhlAOBwfyQES8jZJnvt/33N5NX7irxKKWLCdJtFea2wRIG1
-/4BqJn/7i83xyLlhC6W7NE5GuQRVgayw8yfMtFzR1YDTT47/frtAN9qxYvI/5KmU
-CT172tAheuQYIQyZIAB6bsc3y+ZLzOZpTyhFxj/OgsyA7m/YKJJG2KDyZAsvLUc+
-3YPcWLdgh8wWDoqTedvryfgndhzb7ePp0blZgUBgyS+K3kiZmoMJIRd1xw+o8wkR
-l42YgtDTlJbAxIicu8bAasN1UIjlPQLbvovNSz8Ef2VROcbBjPfQdKNffkC6NZ4=
-=Ni4u
+iQEcBAEBAgAGBQJWFS6sAAoJEJe+XXKaIuTlAwoH/2szBvYglrvuYgoW/9Ctnfy7
+5PNoriM4T9tL95rSqm7HQ//K5VvOJd+y41keLJNgKMv1KXgheDwhiP5H12BoYN1d
+xG9hHuoafsHCxSd6CpfQ2KbI768DjDHr0CXR4eGVNchHcM3D5dxU8+iKzAgVqm72
+x2RGi/ohZcKAWXqdrVzbekoUC6AorR6k81A1XX6b0w3kOdC+AnSQfqSuGbokxqYN
+LAD1lyTEmKIn1MdNPOuwIGupuEqXXSaPHjr4XU0pPOfgHaCIqxJZDfDUGC9Ac0FZ
+k7XQL7artSUg2eghoVO4mvEM9mXDlO/6+6MllJLsWF4XEa81ogKF+kX8xKkqoUk=
+=CKhc
 -----END PGP SIGNATURE-----
