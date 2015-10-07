@@ -26,8 +26,9 @@ share/novosibirsk-map.xml
 SIGNATURE
 t/Map-Tube-Novosibirsk/01-use.t
 t/Map-Tube-Novosibirsk/02-version.t
-t/Map-Tube-Novosibirsk/03-get_shortest_route.t
-t/Map-Tube-Novosibirsk/04-name.t
-t/Map-Tube-Novosibirsk/05-xml.t
+t/Map-Tube-Novosibirsk/03-map.t
+t/Map-Tube-Novosibirsk/04-get_shortest_route.t
+t/Map-Tube-Novosibirsk/05-name.t
+t/Map-Tube-Novosibirsk/06-xml.t
 xt/Map-Tube-Novosibirsk/01-pod_coverage.t
 xt/Map-Tube-Novosibirsk/02-pod.t
