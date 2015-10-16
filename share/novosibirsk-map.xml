@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- https://ru.wikipedia.org/wiki/Новосибирский_метрополитен -->
 <tube name="Новосибирский метрополитен">
-  <!-- https://ru.wikipedia.org/wiki/Новосибирский_метрополитен -->
+  <lines>
+    <line id="1" name="Ленинская линия" color="red"/>
+    <line id="2" name="Дзержинская линия" color="green"/>
+  </lines>
   <stations>
     <!-- https://ru.wikipedia.org/wiki/Ленинская_линия -->
     <station id="1-01" name="Заельцовская" line="Ленинская линия" link="1-02"/>
