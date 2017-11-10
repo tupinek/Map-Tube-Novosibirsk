@@ -2,6 +2,7 @@
  - Add EXAMPLE5 section to doc.
  - Implement station order.
  - Rewrite XML map to new version with line IDs.
+ - Update Module::Install to 1.18 version.
 
 0.03 2015-10-16T11:41:32+02:00
  - Add lines to XML document.
